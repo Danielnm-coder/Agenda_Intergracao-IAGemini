@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "ProjetoGemini.Controllers.AgendaController",
+    "Method": "Post",
+    "RelativePath": "api/Agenda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProjetoGemini.Dtos.AgendaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoGemini.Controllers.AgendaController",
+    "Method": "Busca",
+    "RelativePath": "api/Agenda/Busca",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "busca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
